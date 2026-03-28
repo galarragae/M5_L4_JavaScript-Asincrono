@@ -1,0 +1,19 @@
+            Programación Asíncrona
+======================================================
+Modelo de programación donde las operaciones no se ejecutan secuencialmente,
+sino que pueden continuar sin bloquear el flujo del programa.
+Permite manejar tareas que requieren esperar, como llamadas a APIs, lectura de archivos o
+temporizadores.
+Se usa en JavaScript para mejorar la eficiencia y evitar bloqueos en la ejecución.
+
+
+          Hilo de Ejecución (Thread)
+======================================================
+● Un thread es la unidad básica de ejecución en un programa.
+● JS es single-threaded: hay un único thread en el event loop, lo que significa que solo
+puede ejecutar una tarea a la vez.
+● La programación asíncrona permite manejar múltiples tareas sin bloquear
+este thread principal.
+
+          Hilo de Ejecución (Thread)
+======================================================
