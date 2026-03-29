@@ -26,10 +26,6 @@
 // .catch() → maneja errores.
 // .finally() → se ejecuta siempre, haya éxito o error.
 
-console.log(
-  `\n=====================================\nEjemplo Promesas\n=====================================`,
-);
-
 const promesa = new Promise((resolve,reject)=>{
   setTimeout(()=> resolve("Éxito"), 2000);
 });
